@@ -10,7 +10,7 @@ if (0 <= window.location.href.indexOf("pokiForceLocalLoader") && (loaders.unity 
 var loader = loaders[window.config.loader];
 if (!loader) throw Error('Loader "' + window.config.loader + '" not found');
 var sdkScript = document.createElement("script");
-sdkScript.src = "sdk.js", sdkScript.onload = function () {
+sdkScript.src = "https://cdn.jsdelivr.net/gh/Zotronix/rocketsoccerderby@master/sdk.js", sdkScript.onload = function () {
     var i = document.createElement("script");
     i.src = root + loader, document.body.appendChild(i)
 }, document.body.appendChild(sdkScript);
