@@ -18,7 +18,7 @@ window.SDK_OPTIONS = {
 };
 (function (a, b, c) {
     var d = a.getElementsByTagName(b)[0];
-    a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "gsdk.js", d.parentNode.insertBefore(a, d))
+    a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://cdn.jsdelivr.net/gh/Zotronix/rocketsoccerderby@master/gsdk.js", d.parentNode.insertBefore(a, d))
 })(document, "script", "gamemonetize-sdk");
 
 
